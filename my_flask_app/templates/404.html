@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Not Found - 404</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="display-4">404</h1>
+        <p class="lead">Oops! The page you're looking for doesn't exist.</p>
+        <a href="{{ url_for('home') }}" class="btn btn-primary">Return to Home</a>
+    </div>
+</body>
+</html>
