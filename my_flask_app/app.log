@@ -1,0 +1,973 @@
+ * Debugger is active!
+ * Debugger PIN: 982-518-794
+127.0.0.1 - - [04/Sep/2024 12:56:03] "GET / HTTP/1.1" 200 -
+Full Cash Flow Dataframe:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+Raw JSON Response to Client: {"status": "success", "ticker": "HLF", "operating_cash_flow": {"2023-12-31 00:00:00": 357500000.0, "2022-12-31 00:00:00": 352500000.0, "2021-12-31 00:00:00": 460300000.0, "2020-12-31 00:00:00": 628600000.0, "2019-12-31 00:00:00": null}}
+127.0.0.1 - - [04/Sep/2024 12:56:06] "POST /analyze HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 12:56:06] "GET /log HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+ * Debugger is active!
+ * Debugger PIN: 982-518-794
+Full Cash Flow Dataframe:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+Error during analysis: keys must be str, int, float, bool or None, not Timestamp
+127.0.0.1 - - [04/Sep/2024 13:00:22] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+ * Debugger is active!
+ * Debugger PIN: 982-518-794
+127.0.0.1 - - [04/Sep/2024 13:01:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 13:01:57] "GET /?ticker=HLF HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 13:02:04] "GET /?ticker=HLF HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+ * Debugger is active!
+ * Debugger PIN: 982-518-794
+127.0.0.1 - - [04/Sep/2024 13:02:23] "GET /?ticker=nvda HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 13:02:53] "GET /?ticker=nvda HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 13:03:20] "GET /?ticker=nvda HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 13:03:24] "GET /?ticker=HLF HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2024 13:03:49] "GET /?ticker=nvda HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:04:15,047 -  * Debugger is active!
+2024-09-04 13:04:15,052 -  * Debugger PIN: 982-518-794
+2024-09-04 13:08:21,763 -  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:08:22,930 -  * Debugger is active!
+2024-09-04 13:08:22,935 -  * Debugger PIN: 982-518-794
+2024-09-04 13:08:25,761 - 127.0.0.1 - - [04/Sep/2024 13:08:25] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:08:42,131 - Full Cash Flow Dataframe for nvda:
+                                                   2024-01-31     2023-01-31     2022-01-31     2021-01-31   2020-01-31
+Free Cash Flow                                  27021000000.0   3808000000.0   8132000000.0   4694000000.0          NaN
+Repurchase Of Capital Stock                     -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Repayment Of Debt                               -1250000000.0            0.0  -1000000000.0            0.0          NaN
+Issuance Of Debt                                          0.0            0.0   4977000000.0   4968000000.0          NaN
+Capital Expenditure                             -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Interest Paid Supplemental Data                   252000000.0    254000000.0    246000000.0    138000000.0          NaN
+Income Tax Paid Supplemental Data                6549000000.0   1404000000.0    396000000.0    249000000.0          NaN
+End Cash Position                                7280000000.0   3389000000.0   1990000000.0    847000000.0          NaN
+Beginning Cash Position                          3389000000.0   1990000000.0    847000000.0  10896000000.0          NaN
+Changes In Cash                                  3891000000.0   1399000000.0   1143000000.0 -10049000000.0          NaN
+Financing Cash Flow                            -13633000000.0 -11617000000.0   1865000000.0   3804000000.0          NaN
+Cash Flow From Continuing Financing Activities -13633000000.0 -11617000000.0   1865000000.0   3804000000.0          NaN
+Net Other Financing Charges                     -2858000000.0  -1535000000.0  -1994000000.0   -963000000.0          NaN
+Proceeds From Stock Option Exercised              403000000.0    355000000.0    281000000.0    194000000.0          NaN
+Cash Dividends Paid                              -395000000.0   -398000000.0   -399000000.0   -395000000.0          NaN
+Common Stock Dividend Paid                                NaN   -398000000.0   -399000000.0   -395000000.0 -390000000.0
+Net Common Stock Issuance                       -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Common Stock Payments                           -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Net Issuance Payments Of Debt                   -1250000000.0            0.0   3977000000.0   4968000000.0          NaN
+Net Long Term Debt Issuance                     -1250000000.0            0.0   3977000000.0   4968000000.0          NaN
+Long Term Debt Payments                         -1250000000.0            0.0  -1000000000.0            0.0          NaN
+Long Term Debt Issuance                                   0.0            0.0   4977000000.0   4968000000.0          NaN
+Investing Cash Flow                            -10566000000.0   7375000000.0  -9830000000.0 -19675000000.0          NaN
+Cash Flow From Continuing Investing Activities -10566000000.0   7375000000.0  -9830000000.0 -19675000000.0          NaN
+Net Investment Purchase And Sale                -9414000000.0   9257000000.0  -8591000000.0 -10023000000.0          NaN
+Sale Of Investment                               9782000000.0  21231000000.0  16220000000.0   9319000000.0          NaN
+Purchase Of Investment                         -19196000000.0 -11974000000.0 -24811000000.0 -19342000000.0          NaN
+Net Business Purchase And Sale                    -83000000.0    -49000000.0   -263000000.0  -8524000000.0          NaN
+Purchase Of Business                              -83000000.0    -49000000.0   -263000000.0  -8524000000.0          NaN
+Net PPE Purchase And Sale                       -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Sale Of PPE                                               NaN            NaN            NaN            NaN          0.0
+Purchase Of PPE                                 -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Capital Expenditure Reported                              NaN            NaN            NaN  -1128000000.0 -489000000.0
+Operating Cash Flow                             28090000000.0   5641000000.0   9108000000.0   5822000000.0          NaN
+Cash Flow From Continuing Operating Activities  28090000000.0   5641000000.0   9108000000.0   5822000000.0          NaN
+Change In Working Capital                       -3722000000.0  -2207000000.0  -3363000000.0   -703000000.0          NaN
+Change In Other Working Capital                           NaN            NaN            NaN    163000000.0   28000000.0
+Change In Other Current Liabilities               514000000.0    252000000.0    192000000.0    163000000.0          NaN
+Change In Payables And Accrued Expense           3556000000.0    790000000.0   1149000000.0    602000000.0          NaN
+Change In Accrued Expense                        2025000000.0   1341000000.0    581000000.0    290000000.0          NaN
+Change In Payable                                1531000000.0   -551000000.0    568000000.0    312000000.0          NaN
+Change In Account Payable                        1531000000.0   -551000000.0    568000000.0    312000000.0          NaN
+Change In Prepaid Assets                        -1522000000.0  -1517000000.0  -1715000000.0   -394000000.0          NaN
+Change In Inventory                               -98000000.0  -2554000000.0   -774000000.0   -524000000.0          NaN
+Change In Receivables                           -6172000000.0    822000000.0  -2215000000.0   -550000000.0          NaN
+Changes In Account Receivables                  -6172000000.0    822000000.0  -2215000000.0   -550000000.0          NaN
+Other Non Cash Items                             -278000000.0   1346000000.0     47000000.0    -20000000.0          NaN
+Stock Based Compensation                         3549000000.0   2709000000.0   2004000000.0   1397000000.0          NaN
+Deferred Tax                                    -2489000000.0  -2164000000.0   -406000000.0   -282000000.0          NaN
+Deferred Income Tax                             -2489000000.0  -2164000000.0   -406000000.0   -282000000.0          NaN
+Depreciation Amortization Depletion              1508000000.0   1544000000.0   1174000000.0   1098000000.0          NaN
+Depreciation And Amortization                    1508000000.0   1544000000.0   1174000000.0   1098000000.0          NaN
+Operating Gains Losses                           -238000000.0     45000000.0   -100000000.0            NaN    1000000.0
+Gain Loss On Investment Securities               -238000000.0     45000000.0   -100000000.0            NaN    1000000.0
+Net Income From Continuing Operations           29760000000.0   4368000000.0   9752000000.0   4332000000.0          NaN
+2024-09-04 13:08:42,131 - Cash Flow Changes for nvda: {'2024-01-31 00:00:00': 397.96, '2023-01-31 00:00:00': -38.07, '2022-01-31 00:00:00': 56.44, '2021-01-31 00:00:00': None}
+2024-09-04 13:08:42,131 - Raw JSON Response to Client: {"status": "success", "ticker": "nvda", "operating_cash_flow": {"2024-01-31 00:00:00": 28090000000.0, "2023-01-31 00:00:00": 5641000000.0, "2022-01-31 00:00:00": 9108000000.0, "2021-01-31 00:00:00": 5822000000.0, "2020-01-31 00:00:00": null}, "cash_flow_changes": {"2024-01-31 00:00:00": 397.96, "2023-01-31 00:00:00": -38.07, "2022-01-31 00:00:00": 56.44, "2021-01-31 00:00:00": null}}
+2024-09-04 13:08:42,131 - 127.0.0.1 - - [04/Sep/2024 13:08:42] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:08:42,138 - 127.0.0.1 - - [04/Sep/2024 13:08:42] "[33mGET /log HTTP/1.1[0m" 404 -
+2024-09-04 13:12:02,559 -  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:12:03,716 -  * Debugger is active!
+2024-09-04 13:12:03,721 -  * Debugger PIN: 982-518-794
+2024-09-04 13:13:35,992 -  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:13:37,149 -  * Debugger is active!
+2024-09-04 13:13:37,153 -  * Debugger PIN: 982-518-794
+2024-09-04 13:13:42,180 - Full Cash Flow Dataframe for hlf:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+2024-09-04 13:13:42,181 - Cash Flow Changes for hlf: {'2023-12-31 00:00:00': 1.42, '2022-12-31 00:00:00': -23.42, '2021-12-31 00:00:00': -26.77, '2020-12-31 00:00:00': None}
+2024-09-04 13:13:42,181 - Raw JSON Response to Client: {"status": "success", "ticker": "hlf", "operating_cash_flow": {"2023-12-31 00:00:00": 357500000.0, "2022-12-31 00:00:00": 352500000.0, "2021-12-31 00:00:00": 460300000.0, "2020-12-31 00:00:00": 628600000.0, "2019-12-31 00:00:00": null}, "cash_flow_changes": {"2023-12-31 00:00:00": 1.42, "2022-12-31 00:00:00": -23.42, "2021-12-31 00:00:00": -26.77, "2020-12-31 00:00:00": null}}
+2024-09-04 13:13:42,181 - 127.0.0.1 - - [04/Sep/2024 13:13:42] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:13:42,190 - 127.0.0.1 - - [04/Sep/2024 13:13:42] "[33mGET /log HTTP/1.1[0m" 404 -
+2024-09-04 13:14:49,374 - Full Cash Flow Dataframe for nvda:
+                                                   2024-01-31     2023-01-31     2022-01-31     2021-01-31   2020-01-31
+Free Cash Flow                                  27021000000.0   3808000000.0   8132000000.0   4694000000.0          NaN
+Repurchase Of Capital Stock                     -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Repayment Of Debt                               -1250000000.0            0.0  -1000000000.0            0.0          NaN
+Issuance Of Debt                                          0.0            0.0   4977000000.0   4968000000.0          NaN
+Capital Expenditure                             -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Interest Paid Supplemental Data                   252000000.0    254000000.0    246000000.0    138000000.0          NaN
+Income Tax Paid Supplemental Data                6549000000.0   1404000000.0    396000000.0    249000000.0          NaN
+End Cash Position                                7280000000.0   3389000000.0   1990000000.0    847000000.0          NaN
+Beginning Cash Position                          3389000000.0   1990000000.0    847000000.0  10896000000.0          NaN
+Changes In Cash                                  3891000000.0   1399000000.0   1143000000.0 -10049000000.0          NaN
+Financing Cash Flow                            -13633000000.0 -11617000000.0   1865000000.0   3804000000.0          NaN
+Cash Flow From Continuing Financing Activities -13633000000.0 -11617000000.0   1865000000.0   3804000000.0          NaN
+Net Other Financing Charges                     -2858000000.0  -1535000000.0  -1994000000.0   -963000000.0          NaN
+Proceeds From Stock Option Exercised              403000000.0    355000000.0    281000000.0    194000000.0          NaN
+Cash Dividends Paid                              -395000000.0   -398000000.0   -399000000.0   -395000000.0          NaN
+Common Stock Dividend Paid                                NaN   -398000000.0   -399000000.0   -395000000.0 -390000000.0
+Net Common Stock Issuance                       -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Common Stock Payments                           -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Net Issuance Payments Of Debt                   -1250000000.0            0.0   3977000000.0   4968000000.0          NaN
+Net Long Term Debt Issuance                     -1250000000.0            0.0   3977000000.0   4968000000.0          NaN
+Long Term Debt Payments                         -1250000000.0            0.0  -1000000000.0            0.0          NaN
+Long Term Debt Issuance                                   0.0            0.0   4977000000.0   4968000000.0          NaN
+Investing Cash Flow                            -10566000000.0   7375000000.0  -9830000000.0 -19675000000.0          NaN
+Cash Flow From Continuing Investing Activities -10566000000.0   7375000000.0  -9830000000.0 -19675000000.0          NaN
+Net Investment Purchase And Sale                -9414000000.0   9257000000.0  -8591000000.0 -10023000000.0          NaN
+Sale Of Investment                               9782000000.0  21231000000.0  16220000000.0   9319000000.0          NaN
+Purchase Of Investment                         -19196000000.0 -11974000000.0 -24811000000.0 -19342000000.0          NaN
+Net Business Purchase And Sale                    -83000000.0    -49000000.0   -263000000.0  -8524000000.0          NaN
+Purchase Of Business                              -83000000.0    -49000000.0   -263000000.0  -8524000000.0          NaN
+Net PPE Purchase And Sale                       -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Sale Of PPE                                               NaN            NaN            NaN            NaN          0.0
+Purchase Of PPE                                 -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Capital Expenditure Reported                              NaN            NaN            NaN  -1128000000.0 -489000000.0
+Operating Cash Flow                             28090000000.0   5641000000.0   9108000000.0   5822000000.0          NaN
+Cash Flow From Continuing Operating Activities  28090000000.0   5641000000.0   9108000000.0   5822000000.0          NaN
+Change In Working Capital                       -3722000000.0  -2207000000.0  -3363000000.0   -703000000.0          NaN
+Change In Other Working Capital                           NaN            NaN            NaN    163000000.0   28000000.0
+Change In Other Current Liabilities               514000000.0    252000000.0    192000000.0    163000000.0          NaN
+Change In Payables And Accrued Expense           3556000000.0    790000000.0   1149000000.0    602000000.0          NaN
+Change In Accrued Expense                        2025000000.0   1341000000.0    581000000.0    290000000.0          NaN
+Change In Payable                                1531000000.0   -551000000.0    568000000.0    312000000.0          NaN
+Change In Account Payable                        1531000000.0   -551000000.0    568000000.0    312000000.0          NaN
+Change In Prepaid Assets                        -1522000000.0  -1517000000.0  -1715000000.0   -394000000.0          NaN
+Change In Inventory                               -98000000.0  -2554000000.0   -774000000.0   -524000000.0          NaN
+Change In Receivables                           -6172000000.0    822000000.0  -2215000000.0   -550000000.0          NaN
+Changes In Account Receivables                  -6172000000.0    822000000.0  -2215000000.0   -550000000.0          NaN
+Other Non Cash Items                             -278000000.0   1346000000.0     47000000.0    -20000000.0          NaN
+Stock Based Compensation                         3549000000.0   2709000000.0   2004000000.0   1397000000.0          NaN
+Deferred Tax                                    -2489000000.0  -2164000000.0   -406000000.0   -282000000.0          NaN
+Deferred Income Tax                             -2489000000.0  -2164000000.0   -406000000.0   -282000000.0          NaN
+Depreciation Amortization Depletion              1508000000.0   1544000000.0   1174000000.0   1098000000.0          NaN
+Depreciation And Amortization                    1508000000.0   1544000000.0   1174000000.0   1098000000.0          NaN
+Operating Gains Losses                           -238000000.0     45000000.0   -100000000.0            NaN    1000000.0
+Gain Loss On Investment Securities               -238000000.0     45000000.0   -100000000.0            NaN    1000000.0
+Net Income From Continuing Operations           29760000000.0   4368000000.0   9752000000.0   4332000000.0          NaN
+2024-09-04 13:14:49,374 - Cash Flow Changes for nvda: {'2024-01-31 00:00:00': 397.96, '2023-01-31 00:00:00': -38.07, '2022-01-31 00:00:00': 56.44, '2021-01-31 00:00:00': None}
+2024-09-04 13:14:49,374 - Raw JSON Response to Client: {"status": "success", "ticker": "nvda", "operating_cash_flow": {"2024-01-31 00:00:00": 28090000000.0, "2023-01-31 00:00:00": 5641000000.0, "2022-01-31 00:00:00": 9108000000.0, "2021-01-31 00:00:00": 5822000000.0, "2020-01-31 00:00:00": null}, "cash_flow_changes": {"2024-01-31 00:00:00": 397.96, "2023-01-31 00:00:00": -38.07, "2022-01-31 00:00:00": 56.44, "2021-01-31 00:00:00": null}}
+2024-09-04 13:14:49,374 - 127.0.0.1 - - [04/Sep/2024 13:14:49] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:14:49,381 - 127.0.0.1 - - [04/Sep/2024 13:14:49] "[33mGET /log HTTP/1.1[0m" 404 -
+2024-09-04 13:16:26,655 -  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:19:23,564  * Debugger is active!
+2024-09-04 13:19:23,569  * Debugger PIN: 982-518-794
+2024-09-04 13:19:31,402 127.0.0.1 - - [04/Sep/2024 13:19:31] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:19:32,788 127.0.0.1 - - [04/Sep/2024 13:19:32] "GET /log HTTP/1.1" 200 -
+2024-09-04 13:19:33,114 Full Cash Flow Dataframe:
+                                                   2024-01-31     2023-01-31     2022-01-31     2021-01-31   2020-01-31
+Free Cash Flow                                  27021000000.0   3808000000.0   8132000000.0   4694000000.0          NaN
+Repurchase Of Capital Stock                     -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Repayment Of Debt                               -1250000000.0            0.0  -1000000000.0            0.0          NaN
+Issuance Of Debt                                          0.0            0.0   4977000000.0   4968000000.0          NaN
+Capital Expenditure                             -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Interest Paid Supplemental Data                   252000000.0    254000000.0    246000000.0    138000000.0          NaN
+Income Tax Paid Supplemental Data                6549000000.0   1404000000.0    396000000.0    249000000.0          NaN
+End Cash Position                                7280000000.0   3389000000.0   1990000000.0    847000000.0          NaN
+Beginning Cash Position                          3389000000.0   1990000000.0    847000000.0  10896000000.0          NaN
+Changes In Cash                                  3891000000.0   1399000000.0   1143000000.0 -10049000000.0          NaN
+Financing Cash Flow                            -13633000000.0 -11617000000.0   1865000000.0   3804000000.0          NaN
+Cash Flow From Continuing Financing Activities -13633000000.0 -11617000000.0   1865000000.0   3804000000.0          NaN
+Net Other Financing Charges                     -2858000000.0  -1535000000.0  -1994000000.0   -963000000.0          NaN
+Proceeds From Stock Option Exercised              403000000.0    355000000.0    281000000.0    194000000.0          NaN
+Cash Dividends Paid                              -395000000.0   -398000000.0   -399000000.0   -395000000.0          NaN
+Common Stock Dividend Paid                                NaN   -398000000.0   -399000000.0   -395000000.0 -390000000.0
+Net Common Stock Issuance                       -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Common Stock Payments                           -9533000000.0 -10039000000.0            0.0            0.0          NaN
+Net Issuance Payments Of Debt                   -1250000000.0            0.0   3977000000.0   4968000000.0          NaN
+Net Long Term Debt Issuance                     -1250000000.0            0.0   3977000000.0   4968000000.0          NaN
+Long Term Debt Payments                         -1250000000.0            0.0  -1000000000.0            0.0          NaN
+Long Term Debt Issuance                                   0.0            0.0   4977000000.0   4968000000.0          NaN
+Investing Cash Flow                            -10566000000.0   7375000000.0  -9830000000.0 -19675000000.0          NaN
+Cash Flow From Continuing Investing Activities -10566000000.0   7375000000.0  -9830000000.0 -19675000000.0          NaN
+Net Investment Purchase And Sale                -9414000000.0   9257000000.0  -8591000000.0 -10023000000.0          NaN
+Sale Of Investment                               9782000000.0  21231000000.0  16220000000.0   9319000000.0          NaN
+Purchase Of Investment                         -19196000000.0 -11974000000.0 -24811000000.0 -19342000000.0          NaN
+Net Business Purchase And Sale                    -83000000.0    -49000000.0   -263000000.0  -8524000000.0          NaN
+Purchase Of Business                              -83000000.0    -49000000.0   -263000000.0  -8524000000.0          NaN
+Net PPE Purchase And Sale                       -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Sale Of PPE                                               NaN            NaN            NaN            NaN          0.0
+Purchase Of PPE                                 -1069000000.0  -1833000000.0   -976000000.0  -1128000000.0          NaN
+Capital Expenditure Reported                              NaN            NaN            NaN  -1128000000.0 -489000000.0
+Operating Cash Flow                             28090000000.0   5641000000.0   9108000000.0   5822000000.0          NaN
+Cash Flow From Continuing Operating Activities  28090000000.0   5641000000.0   9108000000.0   5822000000.0          NaN
+Change In Working Capital                       -3722000000.0  -2207000000.0  -3363000000.0   -703000000.0          NaN
+Change In Other Working Capital                           NaN            NaN            NaN    163000000.0   28000000.0
+Change In Other Current Liabilities               514000000.0    252000000.0    192000000.0    163000000.0          NaN
+Change In Payables And Accrued Expense           3556000000.0    790000000.0   1149000000.0    602000000.0          NaN
+Change In Accrued Expense                        2025000000.0   1341000000.0    581000000.0    290000000.0          NaN
+Change In Payable                                1531000000.0   -551000000.0    568000000.0    312000000.0          NaN
+Change In Account Payable                        1531000000.0   -551000000.0    568000000.0    312000000.0          NaN
+Change In Prepaid Assets                        -1522000000.0  -1517000000.0  -1715000000.0   -394000000.0          NaN
+Change In Inventory                               -98000000.0  -2554000000.0   -774000000.0   -524000000.0          NaN
+Change In Receivables                           -6172000000.0    822000000.0  -2215000000.0   -550000000.0          NaN
+Changes In Account Receivables                  -6172000000.0    822000000.0  -2215000000.0   -550000000.0          NaN
+Other Non Cash Items                             -278000000.0   1346000000.0     47000000.0    -20000000.0          NaN
+Stock Based Compensation                         3549000000.0   2709000000.0   2004000000.0   1397000000.0          NaN
+Deferred Tax                                    -2489000000.0  -2164000000.0   -406000000.0   -282000000.0          NaN
+Deferred Income Tax                             -2489000000.0  -2164000000.0   -406000000.0   -282000000.0          NaN
+Depreciation Amortization Depletion              1508000000.0   1544000000.0   1174000000.0   1098000000.0          NaN
+Depreciation And Amortization                    1508000000.0   1544000000.0   1174000000.0   1098000000.0          NaN
+Operating Gains Losses                           -238000000.0     45000000.0   -100000000.0            NaN    1000000.0
+Gain Loss On Investment Securities               -238000000.0     45000000.0   -100000000.0            NaN    1000000.0
+Net Income From Continuing Operations           29760000000.0   4368000000.0   9752000000.0   4332000000.0          NaN
+2024-09-04 13:19:33,115 Raw JSON Response to Client: {"status": "success", "ticker": "nvda", "operating_cash_flow": {"2024-01-31 00:00:00": 28090000000.0, "2023-01-31 00:00:00": 5641000000.0, "2022-01-31 00:00:00": 9108000000.0, "2021-01-31 00:00:00": 5822000000.0, "2020-01-31 00:00:00": null}}
+2024-09-04 13:19:33,115 127.0.0.1 - - [04/Sep/2024 13:19:33] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:20:27,470 127.0.0.1 - - [04/Sep/2024 13:20:27] "GET /log HTTP/1.1" 200 -
+2024-09-04 13:20:27,703 Full Cash Flow Dataframe:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+2024-09-04 13:20:27,704 Raw JSON Response to Client: {"status": "success", "ticker": "hlf", "operating_cash_flow": {"2023-12-31 00:00:00": 357500000.0, "2022-12-31 00:00:00": 352500000.0, "2021-12-31 00:00:00": 460300000.0, "2020-12-31 00:00:00": 628600000.0, "2019-12-31 00:00:00": null}}
+2024-09-04 13:20:27,704 127.0.0.1 - - [04/Sep/2024 13:20:27] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:20:29,500 Full Cash Flow Dataframe:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+2024-09-04 13:20:29,501 Raw JSON Response to Client: {"status": "success", "ticker": "hlf", "operating_cash_flow": {"2023-12-31 00:00:00": 357500000.0, "2022-12-31 00:00:00": 352500000.0, "2021-12-31 00:00:00": 460300000.0, "2020-12-31 00:00:00": 628600000.0, "2019-12-31 00:00:00": null}}
+2024-09-04 13:20:29,501 127.0.0.1 - - [04/Sep/2024 13:20:29] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:20:29,507 127.0.0.1 - - [04/Sep/2024 13:20:29] "GET /log HTTP/1.1" 200 -
+2024-09-04 13:20:37,427 127.0.0.1 - - [04/Sep/2024 13:20:37] "GET /log HTTP/1.1" 200 -
+2024-09-04 13:20:37,711 Full Cash Flow Dataframe:
+                                                    2024-06-30     2023-06-30  ...     2021-06-30   2020-06-30
+Free Cash Flow                                   74071000000.0  59475000000.0  ...  56118000000.0          NaN
+Repurchase Of Capital Stock                     -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Repayment Of Debt                               -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Issuance Of Debt                                 29645000000.0            0.0  ...            NaN          0.0
+Issuance Of Capital Stock                         2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Capital Expenditure                             -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+End Cash Position                                18315000000.0  34704000000.0  ...  14224000000.0          NaN
+Beginning Cash Position                          34704000000.0  13931000000.0  ...  13576000000.0          NaN
+Effect Of Exchange Rate Changes                   -210000000.0   -194000000.0  ...    -29000000.0          NaN
+Changes In Cash                                 -16179000000.0  20967000000.0  ...    677000000.0          NaN
+Financing Cash Flow                             -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Cash Flow From Continuing Financing Activities  -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Net Other Financing Charges                      -1309000000.0  -1006000000.0  ...  -2523000000.0          NaN
+Cash Dividends Paid                             -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Common Stock Dividend Paid                      -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Net Common Stock Issuance                       -15252000000.0 -20379000000.0  ... -25692000000.0          NaN
+Common Stock Payments                           -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Common Stock Issuance                             2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Net Issuance Payments Of Debt                      575000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Net Short Term Debt Issuance                      5250000000.0            0.0  ...            NaN          0.0
+Short Term Debt Issuance                          5250000000.0            0.0  ...            NaN          NaN
+Net Long Term Debt Issuance                      -4675000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Payments                         -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Issuance                          24395000000.0            0.0  ...            NaN          0.0
+Investing Cash Flow                             -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Cash Flow From Continuing Investing Activities  -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Net Other Investing Changes                      -1298000000.0  -3116000000.0  ...   -922000000.0          NaN
+Net Investment Purchase And Sale                 17937000000.0  10213000000.0  ...   2876000000.0          NaN
+Sale Of Investment                               35669000000.0  47864000000.0  ...  65800000000.0          NaN
+Purchase Of Investment                          -17732000000.0 -37651000000.0  ... -62924000000.0          NaN
+Net Business Purchase And Sale                  -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Purchase Of Business                            -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Net PPE Purchase And Sale                       -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Purchase Of PPE                                 -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Operating Cash Flow                             118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Cash Flow From Continuing Operating Activities  118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Change In Working Capital                         1824000000.0  -2388000000.0  ...   -936000000.0          NaN
+Change In Other Working Capital                   5348000000.0   5535000000.0  ...   2324000000.0          NaN
+Change In Other Current Liabilities               5616000000.0   2825000000.0  ...   5551000000.0          NaN
+Change In Other Current Assets                   -8465000000.0  -4824000000.0  ...  -4391000000.0          NaN
+Change In Payables And Accrued Expense            5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Payable                                 5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Account Payable                         3545000000.0  -2721000000.0  ...   2798000000.0          NaN
+Change In Tax Payable                             1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Income Tax Payable                      1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Inventory                               1284000000.0   1242000000.0  ...   -737000000.0          NaN
+Change In Receivables                            -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Changes In Account Receivables                   -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Stock Based Compensation                         10734000000.0   9611000000.0  ...   6118000000.0          NaN
+Deferred Tax                                     -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Deferred Income Tax                              -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Depreciation Amortization Depletion              22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation And Amortization                    22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation                                     22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Operating Gains Losses                             305000000.0    196000000.0  ...  -1249000000.0          NaN
+Gain Loss On Investment Securities                         NaN            NaN  ...            NaN -219000000.0
+Net Income From Continuing Operations            88136000000.0  72361000000.0  ...  61271000000.0          NaN
+
+[57 rows x 5 columns]
+2024-09-04 13:20:37,711 Raw JSON Response to Client: {"status": "success", "ticker": "msft", "operating_cash_flow": {"2024-06-30 00:00:00": 118548000000.0, "2023-06-30 00:00:00": 87582000000.0, "2022-06-30 00:00:00": 89035000000.0, "2021-06-30 00:00:00": 76740000000.0, "2020-06-30 00:00:00": null}}
+2024-09-04 13:20:37,711 127.0.0.1 - - [04/Sep/2024 13:20:37] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:21:14,415 127.0.0.1 - - [04/Sep/2024 13:21:14] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:21:15,628 Full Cash Flow Dataframe:
+                                                    2024-06-30     2023-06-30  ...     2021-06-30   2020-06-30
+Free Cash Flow                                   74071000000.0  59475000000.0  ...  56118000000.0          NaN
+Repurchase Of Capital Stock                     -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Repayment Of Debt                               -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Issuance Of Debt                                 29645000000.0            0.0  ...            NaN          0.0
+Issuance Of Capital Stock                         2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Capital Expenditure                             -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+End Cash Position                                18315000000.0  34704000000.0  ...  14224000000.0          NaN
+Beginning Cash Position                          34704000000.0  13931000000.0  ...  13576000000.0          NaN
+Effect Of Exchange Rate Changes                   -210000000.0   -194000000.0  ...    -29000000.0          NaN
+Changes In Cash                                 -16179000000.0  20967000000.0  ...    677000000.0          NaN
+Financing Cash Flow                             -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Cash Flow From Continuing Financing Activities  -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Net Other Financing Charges                      -1309000000.0  -1006000000.0  ...  -2523000000.0          NaN
+Cash Dividends Paid                             -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Common Stock Dividend Paid                      -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Net Common Stock Issuance                       -15252000000.0 -20379000000.0  ... -25692000000.0          NaN
+Common Stock Payments                           -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Common Stock Issuance                             2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Net Issuance Payments Of Debt                      575000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Net Short Term Debt Issuance                      5250000000.0            0.0  ...            NaN          0.0
+Short Term Debt Issuance                          5250000000.0            0.0  ...            NaN          NaN
+Net Long Term Debt Issuance                      -4675000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Payments                         -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Issuance                          24395000000.0            0.0  ...            NaN          0.0
+Investing Cash Flow                             -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Cash Flow From Continuing Investing Activities  -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Net Other Investing Changes                      -1298000000.0  -3116000000.0  ...   -922000000.0          NaN
+Net Investment Purchase And Sale                 17937000000.0  10213000000.0  ...   2876000000.0          NaN
+Sale Of Investment                               35669000000.0  47864000000.0  ...  65800000000.0          NaN
+Purchase Of Investment                          -17732000000.0 -37651000000.0  ... -62924000000.0          NaN
+Net Business Purchase And Sale                  -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Purchase Of Business                            -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Net PPE Purchase And Sale                       -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Purchase Of PPE                                 -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Operating Cash Flow                             118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Cash Flow From Continuing Operating Activities  118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Change In Working Capital                         1824000000.0  -2388000000.0  ...   -936000000.0          NaN
+Change In Other Working Capital                   5348000000.0   5535000000.0  ...   2324000000.0          NaN
+Change In Other Current Liabilities               5616000000.0   2825000000.0  ...   5551000000.0          NaN
+Change In Other Current Assets                   -8465000000.0  -4824000000.0  ...  -4391000000.0          NaN
+Change In Payables And Accrued Expense            5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Payable                                 5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Account Payable                         3545000000.0  -2721000000.0  ...   2798000000.0          NaN
+Change In Tax Payable                             1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Income Tax Payable                      1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Inventory                               1284000000.0   1242000000.0  ...   -737000000.0          NaN
+Change In Receivables                            -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Changes In Account Receivables                   -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Stock Based Compensation                         10734000000.0   9611000000.0  ...   6118000000.0          NaN
+Deferred Tax                                     -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Deferred Income Tax                              -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Depreciation Amortization Depletion              22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation And Amortization                    22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation                                     22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Operating Gains Losses                             305000000.0    196000000.0  ...  -1249000000.0          NaN
+Gain Loss On Investment Securities                         NaN            NaN  ...            NaN -219000000.0
+Net Income From Continuing Operations            88136000000.0  72361000000.0  ...  61271000000.0          NaN
+
+[57 rows x 5 columns]
+2024-09-04 13:21:15,628 Raw JSON Response to Client: {"status": "success", "ticker": "msft", "operating_cash_flow": {"2024-06-30 00:00:00": 118548000000.0, "2023-06-30 00:00:00": 87582000000.0, "2022-06-30 00:00:00": 89035000000.0, "2021-06-30 00:00:00": 76740000000.0, "2020-06-30 00:00:00": null}}
+2024-09-04 13:21:15,628 127.0.0.1 - - [04/Sep/2024 13:21:15] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:21:15,634 127.0.0.1 - - [04/Sep/2024 13:21:15] "GET /log HTTP/1.1" 200 -
+2024-09-04 13:27:21,944  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:27:23,094  * Debugger is active!
+2024-09-04 13:27:23,099  * Debugger PIN: 982-518-794
+2024-09-04 13:27:26,512 127.0.0.1 - - [04/Sep/2024 13:27:26] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:27:28,153 Full Cash Flow Dataframe:
+                                                    2024-06-30     2023-06-30  ...     2021-06-30   2020-06-30
+Free Cash Flow                                   74071000000.0  59475000000.0  ...  56118000000.0          NaN
+Repurchase Of Capital Stock                     -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Repayment Of Debt                               -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Issuance Of Debt                                 29645000000.0            0.0  ...            NaN          0.0
+Issuance Of Capital Stock                         2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Capital Expenditure                             -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+End Cash Position                                18315000000.0  34704000000.0  ...  14224000000.0          NaN
+Beginning Cash Position                          34704000000.0  13931000000.0  ...  13576000000.0          NaN
+Effect Of Exchange Rate Changes                   -210000000.0   -194000000.0  ...    -29000000.0          NaN
+Changes In Cash                                 -16179000000.0  20967000000.0  ...    677000000.0          NaN
+Financing Cash Flow                             -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Cash Flow From Continuing Financing Activities  -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Net Other Financing Charges                      -1309000000.0  -1006000000.0  ...  -2523000000.0          NaN
+Cash Dividends Paid                             -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Common Stock Dividend Paid                      -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Net Common Stock Issuance                       -15252000000.0 -20379000000.0  ... -25692000000.0          NaN
+Common Stock Payments                           -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Common Stock Issuance                             2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Net Issuance Payments Of Debt                      575000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Net Short Term Debt Issuance                      5250000000.0            0.0  ...            NaN          0.0
+Short Term Debt Issuance                          5250000000.0            0.0  ...            NaN          NaN
+Net Long Term Debt Issuance                      -4675000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Payments                         -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Issuance                          24395000000.0            0.0  ...            NaN          0.0
+Investing Cash Flow                             -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Cash Flow From Continuing Investing Activities  -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Net Other Investing Changes                      -1298000000.0  -3116000000.0  ...   -922000000.0          NaN
+Net Investment Purchase And Sale                 17937000000.0  10213000000.0  ...   2876000000.0          NaN
+Sale Of Investment                               35669000000.0  47864000000.0  ...  65800000000.0          NaN
+Purchase Of Investment                          -17732000000.0 -37651000000.0  ... -62924000000.0          NaN
+Net Business Purchase And Sale                  -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Purchase Of Business                            -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Net PPE Purchase And Sale                       -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Purchase Of PPE                                 -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Operating Cash Flow                             118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Cash Flow From Continuing Operating Activities  118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Change In Working Capital                         1824000000.0  -2388000000.0  ...   -936000000.0          NaN
+Change In Other Working Capital                   5348000000.0   5535000000.0  ...   2324000000.0          NaN
+Change In Other Current Liabilities               5616000000.0   2825000000.0  ...   5551000000.0          NaN
+Change In Other Current Assets                   -8465000000.0  -4824000000.0  ...  -4391000000.0          NaN
+Change In Payables And Accrued Expense            5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Payable                                 5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Account Payable                         3545000000.0  -2721000000.0  ...   2798000000.0          NaN
+Change In Tax Payable                             1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Income Tax Payable                      1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Inventory                               1284000000.0   1242000000.0  ...   -737000000.0          NaN
+Change In Receivables                            -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Changes In Account Receivables                   -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Stock Based Compensation                         10734000000.0   9611000000.0  ...   6118000000.0          NaN
+Deferred Tax                                     -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Deferred Income Tax                              -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Depreciation Amortization Depletion              22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation And Amortization                    22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation                                     22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Operating Gains Losses                             305000000.0    196000000.0  ...  -1249000000.0          NaN
+Gain Loss On Investment Securities                         NaN            NaN  ...            NaN -219000000.0
+Net Income From Continuing Operations            88136000000.0  72361000000.0  ...  61271000000.0          NaN
+
+[57 rows x 5 columns]
+2024-09-04 13:27:28,153 Raw JSON Response to Client: {"status": "success", "ticker": "msft", "operating_cash_flow": {"2024-06-30 00:00:00": 118548000000.0, "2023-06-30 00:00:00": 87582000000.0, "2022-06-30 00:00:00": 89035000000.0, "2021-06-30 00:00:00": 76740000000.0, "2020-06-30 00:00:00": null}}
+2024-09-04 13:27:28,153 127.0.0.1 - - [04/Sep/2024 13:27:28] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:36:50,873 127.0.0.1 - - [04/Sep/2024 13:36:50] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:36:54,860 Full Cash Flow Dataframe:
+                                                    2024-06-30     2023-06-30  ...     2021-06-30   2020-06-30
+Free Cash Flow                                   74071000000.0  59475000000.0  ...  56118000000.0          NaN
+Repurchase Of Capital Stock                     -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Repayment Of Debt                               -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Issuance Of Debt                                 29645000000.0            0.0  ...            NaN          0.0
+Issuance Of Capital Stock                         2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Capital Expenditure                             -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+End Cash Position                                18315000000.0  34704000000.0  ...  14224000000.0          NaN
+Beginning Cash Position                          34704000000.0  13931000000.0  ...  13576000000.0          NaN
+Effect Of Exchange Rate Changes                   -210000000.0   -194000000.0  ...    -29000000.0          NaN
+Changes In Cash                                 -16179000000.0  20967000000.0  ...    677000000.0          NaN
+Financing Cash Flow                             -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Cash Flow From Continuing Financing Activities  -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Net Other Financing Charges                      -1309000000.0  -1006000000.0  ...  -2523000000.0          NaN
+Cash Dividends Paid                             -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Common Stock Dividend Paid                      -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Net Common Stock Issuance                       -15252000000.0 -20379000000.0  ... -25692000000.0          NaN
+Common Stock Payments                           -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Common Stock Issuance                             2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Net Issuance Payments Of Debt                      575000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Net Short Term Debt Issuance                      5250000000.0            0.0  ...            NaN          0.0
+Short Term Debt Issuance                          5250000000.0            0.0  ...            NaN          NaN
+Net Long Term Debt Issuance                      -4675000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Payments                         -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Issuance                          24395000000.0            0.0  ...            NaN          0.0
+Investing Cash Flow                             -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Cash Flow From Continuing Investing Activities  -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Net Other Investing Changes                      -1298000000.0  -3116000000.0  ...   -922000000.0          NaN
+Net Investment Purchase And Sale                 17937000000.0  10213000000.0  ...   2876000000.0          NaN
+Sale Of Investment                               35669000000.0  47864000000.0  ...  65800000000.0          NaN
+Purchase Of Investment                          -17732000000.0 -37651000000.0  ... -62924000000.0          NaN
+Net Business Purchase And Sale                  -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Purchase Of Business                            -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Net PPE Purchase And Sale                       -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Purchase Of PPE                                 -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Operating Cash Flow                             118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Cash Flow From Continuing Operating Activities  118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Change In Working Capital                         1824000000.0  -2388000000.0  ...   -936000000.0          NaN
+Change In Other Working Capital                   5348000000.0   5535000000.0  ...   2324000000.0          NaN
+Change In Other Current Liabilities               5616000000.0   2825000000.0  ...   5551000000.0          NaN
+Change In Other Current Assets                   -8465000000.0  -4824000000.0  ...  -4391000000.0          NaN
+Change In Payables And Accrued Expense            5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Payable                                 5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Account Payable                         3545000000.0  -2721000000.0  ...   2798000000.0          NaN
+Change In Tax Payable                             1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Income Tax Payable                      1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Inventory                               1284000000.0   1242000000.0  ...   -737000000.0          NaN
+Change In Receivables                            -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Changes In Account Receivables                   -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Stock Based Compensation                         10734000000.0   9611000000.0  ...   6118000000.0          NaN
+Deferred Tax                                     -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Deferred Income Tax                              -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Depreciation Amortization Depletion              22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation And Amortization                    22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation                                     22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Operating Gains Losses                             305000000.0    196000000.0  ...  -1249000000.0          NaN
+Gain Loss On Investment Securities                         NaN            NaN  ...            NaN -219000000.0
+Net Income From Continuing Operations            88136000000.0  72361000000.0  ...  61271000000.0          NaN
+
+[57 rows x 5 columns]
+2024-09-04 13:36:54,860 Raw JSON Response to Client: {"status": "success", "ticker": "msft", "operating_cash_flow": {"2024-06-30 00:00:00": 118548000000.0, "2023-06-30 00:00:00": 87582000000.0, "2022-06-30 00:00:00": 89035000000.0, "2021-06-30 00:00:00": 76740000000.0, "2020-06-30 00:00:00": null}}
+2024-09-04 13:36:54,860 127.0.0.1 - - [04/Sep/2024 13:36:54] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:38:19,990  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-04 13:38:21,199  * Debugger is active!
+2024-09-04 13:38:21,204  * Debugger PIN: 982-518-794
+2024-09-04 13:38:23,881 127.0.0.1 - - [04/Sep/2024 13:38:23] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:38:30,112 Full Cash Flow Dataframe:
+                                                    2024-06-30     2023-06-30  ...     2021-06-30   2020-06-30
+Free Cash Flow                                   74071000000.0  59475000000.0  ...  56118000000.0          NaN
+Repurchase Of Capital Stock                     -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Repayment Of Debt                               -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Issuance Of Debt                                 29645000000.0            0.0  ...            NaN          0.0
+Issuance Of Capital Stock                         2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Capital Expenditure                             -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+End Cash Position                                18315000000.0  34704000000.0  ...  14224000000.0          NaN
+Beginning Cash Position                          34704000000.0  13931000000.0  ...  13576000000.0          NaN
+Effect Of Exchange Rate Changes                   -210000000.0   -194000000.0  ...    -29000000.0          NaN
+Changes In Cash                                 -16179000000.0  20967000000.0  ...    677000000.0          NaN
+Financing Cash Flow                             -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Cash Flow From Continuing Financing Activities  -37757000000.0 -43935000000.0  ... -48486000000.0          NaN
+Net Other Financing Charges                      -1309000000.0  -1006000000.0  ...  -2523000000.0          NaN
+Cash Dividends Paid                             -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Common Stock Dividend Paid                      -21771000000.0 -19800000000.0  ... -16521000000.0          NaN
+Net Common Stock Issuance                       -15252000000.0 -20379000000.0  ... -25692000000.0          NaN
+Common Stock Payments                           -17254000000.0 -22245000000.0  ... -27385000000.0          NaN
+Common Stock Issuance                             2002000000.0   1866000000.0  ...   1693000000.0          NaN
+Net Issuance Payments Of Debt                      575000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Net Short Term Debt Issuance                      5250000000.0            0.0  ...            NaN          0.0
+Short Term Debt Issuance                          5250000000.0            0.0  ...            NaN          NaN
+Net Long Term Debt Issuance                      -4675000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Payments                         -29070000000.0  -2750000000.0  ...  -3750000000.0          NaN
+Long Term Debt Issuance                          24395000000.0            0.0  ...            NaN          0.0
+Investing Cash Flow                             -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Cash Flow From Continuing Investing Activities  -96970000000.0 -22680000000.0  ... -27577000000.0          NaN
+Net Other Investing Changes                      -1298000000.0  -3116000000.0  ...   -922000000.0          NaN
+Net Investment Purchase And Sale                 17937000000.0  10213000000.0  ...   2876000000.0          NaN
+Sale Of Investment                               35669000000.0  47864000000.0  ...  65800000000.0          NaN
+Purchase Of Investment                          -17732000000.0 -37651000000.0  ... -62924000000.0          NaN
+Net Business Purchase And Sale                  -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Purchase Of Business                            -69132000000.0  -1670000000.0  ...  -8909000000.0          NaN
+Net PPE Purchase And Sale                       -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Purchase Of PPE                                 -44477000000.0 -28107000000.0  ... -20622000000.0          NaN
+Operating Cash Flow                             118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Cash Flow From Continuing Operating Activities  118548000000.0  87582000000.0  ...  76740000000.0          NaN
+Change In Working Capital                         1824000000.0  -2388000000.0  ...   -936000000.0          NaN
+Change In Other Working Capital                   5348000000.0   5535000000.0  ...   2324000000.0          NaN
+Change In Other Current Liabilities               5616000000.0   2825000000.0  ...   5551000000.0          NaN
+Change In Other Current Assets                   -8465000000.0  -4824000000.0  ...  -4391000000.0          NaN
+Change In Payables And Accrued Expense            5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Payable                                 5232000000.0  -3079000000.0  ...   2798000000.0          NaN
+Change In Account Payable                         3545000000.0  -2721000000.0  ...   2798000000.0          NaN
+Change In Tax Payable                             1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Income Tax Payable                      1687000000.0   -358000000.0  ...            NaN          NaN
+Change In Inventory                               1284000000.0   1242000000.0  ...   -737000000.0          NaN
+Change In Receivables                            -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Changes In Account Receivables                   -7191000000.0  -4087000000.0  ...  -6481000000.0          NaN
+Stock Based Compensation                         10734000000.0   9611000000.0  ...   6118000000.0          NaN
+Deferred Tax                                     -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Deferred Income Tax                              -4738000000.0  -6059000000.0  ...   -150000000.0          NaN
+Depreciation Amortization Depletion              22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation And Amortization                    22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Depreciation                                     22287000000.0  13861000000.0  ...  11686000000.0          NaN
+Operating Gains Losses                             305000000.0    196000000.0  ...  -1249000000.0          NaN
+Gain Loss On Investment Securities                         NaN            NaN  ...            NaN -219000000.0
+Net Income From Continuing Operations            88136000000.0  72361000000.0  ...  61271000000.0          NaN
+
+[57 rows x 5 columns]
+2024-09-04 13:38:30,112 Raw JSON Response to Client: {"status": "success", "ticker": "msft", "operating_cash_flow": {"2024-06-30 00:00:00": 118548000000.0, "2023-06-30 00:00:00": 87582000000.0, "2022-06-30 00:00:00": 89035000000.0, "2021-06-30 00:00:00": 76740000000.0, "2020-06-30 00:00:00": null}}
+2024-09-04 13:38:30,112 127.0.0.1 - - [04/Sep/2024 13:38:30] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:39:16,330 Full Cash Flow Dataframe:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+2024-09-04 13:39:16,330 Raw JSON Response to Client: {"status": "success", "ticker": "hlf", "operating_cash_flow": {"2023-12-31 00:00:00": 357500000.0, "2022-12-31 00:00:00": 352500000.0, "2021-12-31 00:00:00": 460300000.0, "2020-12-31 00:00:00": 628600000.0, "2019-12-31 00:00:00": null}}
+2024-09-04 13:39:16,331 127.0.0.1 - - [04/Sep/2024 13:39:16] "POST /analyze HTTP/1.1" 200 -
+2024-09-04 13:40:36,624 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-04 13:40:36,624 [33mPress CTRL+C to quit[0m
+2024-09-04 13:40:36,626  * Restarting with stat
+2024-09-04 13:40:37,767  * Debugger is active!
+2024-09-04 13:40:37,772  * Debugger PIN: 982-518-794
+2024-09-04 13:40:44,291 127.0.0.1 - - [04/Sep/2024 13:40:44] "GET /?ticker=hlf HTTP/1.1" 200 -
+2024-09-04 13:40:46,386 Full Cash Flow Dataframe:
+                                                 2023-12-31   2022-12-31    2021-12-31    2020-12-31  2019-12-31
+Free Cash Flow                                  222500000.0  196100000.0   308900000.0   516600000.0         NaN
+Repurchase Of Capital Stock                     -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Repayment Of Debt                              -353900000.0 -956700000.0  -984200000.0   -24500000.0         NaN
+Issuance Of Debt                                215200000.0  841700000.0  1271100000.0   631500000.0         NaN
+Capital Expenditure                            -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Interest Paid Supplemental Data                 159100000.0  133500000.0   143500000.0    78900000.0         NaN
+Income Tax Paid Supplemental Data               133100000.0  144900000.0   156300000.0   138200000.0         NaN
+End Cash Position                               595500000.0  516300000.0   610400000.0  1054000000.0         NaN
+Beginning Cash Position                         516300000.0  610400000.0  1054000000.0   847500000.0         NaN
+Effect Of Exchange Rate Changes                   4800000.0  -25700000.0   -18900000.0    22000000.0         NaN
+Changes In Cash                                  74400000.0  -68400000.0  -424700000.0   184500000.0         NaN
+Financing Cash Flow                            -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Cash Flow From Continuing Financing Activities -148300000.0 -264700000.0  -728600000.0  -320900000.0         NaN
+Net Other Financing Charges                       1400000.0   -3000000.0    -4200000.0    -4400000.0         NaN
+Proceeds From Stock Option Exercised                    NaN          NaN           NaN           NaN         0.0
+Net Common Stock Issuance                       -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Common Stock Payments                           -11000000.0 -146700000.0 -1011300000.0  -923500000.0         NaN
+Net Issuance Payments Of Debt                  -138700000.0 -115000000.0   286900000.0   607000000.0         NaN
+Net Short Term Debt Issuance                    -74400000.0  564200000.0   671100000.0     7000000.0         NaN
+Short Term Debt Payments                       -289600000.0 -683500000.0  -563500000.0   -24500000.0         NaN
+Short Term Debt Issuance                        215200000.0  564200000.0   671100000.0    31500000.0         NaN
+Net Long Term Debt Issuance                    -138700000.0 -115000000.0  -384200000.0   600000000.0         NaN
+Long Term Debt Payments                        -353900000.0 -956700000.0  -984200000.0           0.0         NaN
+Long Term Debt Issuance                         215200000.0  841700000.0   600000000.0   600000000.0         NaN
+Investing Cash Flow                            -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Cash Flow From Continuing Investing Activities -134800000.0 -156200000.0  -156400000.0  -123200000.0         NaN
+Net Other Investing Changes                        200000.0     200000.0    -5000000.0   -11200000.0         NaN
+Net PPE Purchase And Sale                      -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Purchase Of PPE                                -135000000.0 -156400000.0  -151400000.0  -112000000.0         NaN
+Operating Cash Flow                             357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Cash Flow From Continuing Operating Activities  357500000.0  352500000.0   460300000.0   628600000.0         NaN
+Change In Working Capital                        47700000.0 -123100000.0  -218300000.0    40200000.0         NaN
+Change In Other Working Capital                   6700000.0   31100000.0    -5400000.0    -9800000.0         NaN
+Change In Other Current Liabilities              17300000.0  -63200000.0   -51000000.0   138800000.0         NaN
+Change In Payables And Accrued Expense           -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Accrued Expense                               NaN   -9600000.0    17800000.0    61200000.0  11500000.0
+Change In Payable                                -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Account Payable                        -7400000.0   -1100000.0     6900000.0     5500000.0         NaN
+Change In Prepaid Assets                        -13800000.0  -12400000.0   -49300000.0   -11900000.0         NaN
+Change In Inventory                              57500000.0  -68400000.0  -129100000.0   -76600000.0         NaN
+Change In Receivables                           -12600000.0   -9100000.0     9600000.0    -5800000.0         NaN
+Other Non Cash Items                             13900000.0  -10300000.0    35300000.0    32000000.0         NaN
+Stock Based Compensation                         48000000.0   44400000.0    54100000.0    51000000.0         NaN
+Asset Impairment Charge                          28500000.0   38400000.0    28800000.0    20600000.0         NaN
+Deferred Tax                                    -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Deferred Income Tax                             -41100000.0  -29900000.0   -33300000.0     2000000.0         NaN
+Depreciation Amortization Depletion             113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Depreciation And Amortization                   113300000.0  115400000.0   107600000.0   100300000.0         NaN
+Operating Gains Losses                            5000000.0   -3700000.0    38900000.0     9900000.0         NaN
+Net Foreign Currency Exchange Gain Loss           6000000.0    9100000.0    14300000.0     9900000.0         NaN
+Net Income From Continuing Operations           142200000.0  321300000.0   447200000.0   372600000.0         NaN
+2024-09-04 13:40:46,386 Raw JSON Response to Client: {"status": "success", "ticker": "hlf", "operating_cash_flow": {"2023-12-31 00:00:00": 357500000.0, "2022-12-31 00:00:00": 352500000.0, "2021-12-31 00:00:00": 460300000.0, "2020-12-31 00:00:00": 628600000.0, "2019-12-31 00:00:00": null}}
+2024-09-04 13:40:46,387 127.0.0.1 - - [04/Sep/2024 13:40:46] "POST /analyze HTTP/1.1" 200 -
+2024-09-14 13:08:49,405 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-14 13:08:49,405 [33mPress CTRL+C to quit[0m
+2024-09-14 13:08:49,407  * Restarting with stat
+2024-09-14 13:08:50,535  * Debugger is active!
+2024-09-14 13:08:50,539  * Debugger PIN: 982-518-794
+2024-09-14 13:22:10,429 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-14 13:22:10,429 [33mPress CTRL+C to quit[0m
+2024-09-14 13:22:10,431  * Restarting with stat
+2024-09-14 13:22:11,585  * Debugger is active!
+2024-09-14 13:22:11,590  * Debugger PIN: 723-104-260
+2024-09-14 13:22:38,959 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-14 13:22:38,959 [33mPress CTRL+C to quit[0m
+2024-09-14 13:22:38,960  * Restarting with stat
+2024-09-14 13:22:40,080  * Debugger is active!
+2024-09-14 13:22:40,085  * Debugger PIN: 982-518-794
+2024-09-14 13:26:10,893  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-14 13:26:10,943  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-14 13:26:10,969  * Restarting with stat
+2024-09-14 13:26:11,029  * Restarting with stat
+2024-09-14 13:26:11,246  * Detected change in 'C:\\Users\\trunc\\my_flask_app\\my_flask_app\\app.py', reloading
+2024-09-14 13:26:11,328  * Restarting with stat
+2024-09-14 13:38:51,534  * Restarting with stat
+2024-09-14 13:38:51,542  * Restarting with stat
+2024-09-14 14:26:31,832  * Restarting with stat
+2024-09-14 14:26:31,882  * Restarting with stat
+2024-09-14 14:32:31,856  * Restarting with stat
+2024-09-14 14:32:31,860  * Restarting with stat
