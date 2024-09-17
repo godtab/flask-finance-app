@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Financial Analysis Dashboard</title>
+    <!-- Bootstrap CSS for styling (optional but recommended) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="alert alert-warning" role="alert">
+              {{ messages[0] }}
+            </div>
+          {% endif %}
+        {% endwith %}
+        
+        <h1 class="text-center">Financial Analysis Dashboard</h1>
+        <p class="text-center">Enter a company ticker symbol to begin analysis.</p>
+        
+        <form action="{{ url_for('home') }}" method="POST" class="form-inline justify-content-center">
+            <div class="form-group mb-2">
+                <label for="ticker" class="sr-only">Ticker Symbol</label>
+                <input type="text" class="form-control" id="ticker" name="ticker" placeholder="e.g., AAPL" required>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2 ml-2">Analyze</button>
+        </form>
+    </div>
+    
+    <!-- Optional JavaScript for Bootstrap (if you plan to use JS components of Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
