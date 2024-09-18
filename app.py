@@ -11,6 +11,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Secure secret key for session management
 
 # Allowed tickers can be populated from a reliable source or database
+
 ALLOWED_TICKERS = set(['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'FB', 'NVDA', 'TSLA'])  # Example tickers
 
 @app.route('/', methods=['GET', 'POST'])
