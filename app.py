@@ -4,6 +4,9 @@ import pandas as pd
 import numpy as np
 import os
 from sklearn.linear_model import LinearRegression
+import logging
+
+logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
 
 pd.set_option('future.no_silent_downcasting', True)
@@ -11,9 +14,11 @@ pd.set_option('future.no_silent_downcasting', True)
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Secure secret key for session management
 
-# Allowed tickers can be populated from a reliable source or database
-
-ALLOWED_TICKERS = set(['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'FB', 'NVDA', 'TSLA'])  # Example tickers
+# Fetch S&P 500 tickers from Wikipedia
+sp500_url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+table = pd.read_html(sp500_url)
+sp500_df = table[0]
+ALLOWED_TICKERS = set(sp500_df['Symbol'].str.replace('.', '-').tolist())
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
@@ -31,22 +36,25 @@ def analyze(ticker):
     try:
         # Fetch financial data
         data = fetch_financial_data(ticker)
-
+    
         # Calculate financial ratios
         ratios = calculate_financial_ratios(data)
-
+    
         # Generate financial projections
         projections = generate_projections(data)
-
+        if projections is None:
+            projections = {'Next Year': 'N/A', 'Projected Earnings': 'N/A'}
+    
         # Prepare earnings data for the chart
         earnings_df = data['earnings']
         earnings_years = earnings_df['Year'].astype(str).tolist()
         earnings_values = earnings_df['Earnings'].astype(float).tolist()
-
-        # Append projection
-        earnings_years.append(str(projections['Next Year']))
-        earnings_values.append(float(projections['Projected Earnings']))
-
+    
+        # Append projection if available
+        if projections['Projected Earnings'] != 'N/A':
+            earnings_years.append(str(projections['Next Year']))
+            earnings_values.append(float(projections['Projected Earnings']))
+    
         # Prepare chart data
         earnings_chart_data = {
             'labels': earnings_years,
@@ -59,13 +67,42 @@ def analyze(ticker):
                 'tension': 0.1
             }]
         }
+    
+        # Convert ratios DataFrame to HTML
+        ratios_html = ratios.to_html(
+            classes='table table-striped',
+            border=0,
+            header=False
+        )
+        # Render the analysis page with fetched data
+        return render_template(
+            'analysis.html',
+            ticker=ticker,
+            ratios=ratios_html,
+            projections=projections,
+            earnings_chart_data=earnings_chart_data
+        )
+    
+    except ValueError as e:
+        flash(f"Data unavailable for {ticker}: {str(e)}")
+        return redirect(url_for('home'))
+    
+    except KeyError as e:
+        flash(f"Data parsing error for {ticker}: {str(e)}")
+        return redirect(url_for('home'))
+    
+    except Exception as e:
+        flash(f"An unexpected error occurred: {str(e)}")
+        return redirect(url_for('home'))
+
+        
 
         # Convert ratios DataFrame to HTML
         ratios_html = ratios.to_html(
             classes='table table-striped',
             border=0,
             header=False  # Do not include the header since index contains the ratio names
-)
+        )
         # Render the analysis page with fetched data
         return render_template(
             'analysis.html',
@@ -148,30 +185,24 @@ def fetch_financial_data(ticker):
 def calculate_financial_ratios(data):
     financials = data['financials']
     balance_sheet = data['balance_sheet']
-
-    # Debug statements
-    print("Financials Index:")
-    print(financials.index.tolist())
-    print("Balance Sheet Index:")
-    print(balance_sheet.index.tolist())
-
+    
     # Ensure data is filled
     financials = financials.fillna(0).infer_objects()
     balance_sheet = balance_sheet.fillna(0).infer_objects()
-
+    
     # Extract required data
     try:
         # Extract data using adjusted labels
         current_assets = balance_sheet.loc['CurrentAssets']
         current_liabilities = balance_sheet.loc['CurrentLiabilities']
         total_assets = balance_sheet.loc['TotalAssets']
-
+    
         # Total Liabilities
         if 'TotalLiabilitiesNetMinorityInterest' in balance_sheet.index:
             total_liabilities = balance_sheet.loc['TotalLiabilitiesNetMinorityInterest']
         else:
             total_liabilities = balance_sheet.loc['CurrentLiabilities'] + balance_sheet.loc['TotalNonCurrentLiabilitiesNetMinorityInterest']
-
+    
         # Total Equity
         if 'StockholdersEquity' in balance_sheet.index:
             total_equity = balance_sheet.loc['StockholdersEquity']
@@ -179,21 +210,30 @@ def calculate_financial_ratios(data):
             total_equity = balance_sheet.loc['CommonStockEquity']
         else:
             raise KeyError("Total equity label not found in balance sheet.")
-
+    
         net_income = financials.loc['NetIncome']
         revenue = financials.loc['TotalRevenue']
-
-        # Calculate ratios and take the mean (or appropriate aggregation)
+    
+        # Avoid division by zero and handle NaN values
+        current_liabilities.replace(0, np.nan, inplace=True)
+        total_equity.replace(0, np.nan, inplace=True)
+        total_assets.replace(0, np.nan, inplace=True)
+        revenue.replace(0, np.nan, inplace=True)
+    
+        # Calculate ratios
         ratios_dict = {
-            'Current Ratio': (current_assets / current_liabilities).mean(),
-            'Debt to Equity Ratio': (total_liabilities / total_equity).mean(),
-            'Return on Assets': (net_income / total_assets).mean(),
-            'Net Profit Margin': (net_income / revenue).mean(),
+            'Current Ratio': (current_assets / current_liabilities).mean(skipna=True),
+            'Debt to Equity Ratio': (total_liabilities / total_equity).mean(skipna=True),
+            'Return on Assets': (net_income / total_assets).mean(skipna=True),
+            'Net Profit Margin': (net_income / revenue).mean(skipna=True),
         }
-
+    
         # Convert the dictionary to a DataFrame
         ratios = pd.DataFrame.from_dict(ratios_dict, orient='index', columns=['Value'])
-
+    
+        # Replace NaN values with 'N/A'
+        ratios['Value'] = ratios['Value'].apply(lambda x: 'N/A' if pd.isnull(x) else round(x, 2))
+    
         # Return the ratios DataFrame
         return ratios
     except KeyError as e:
@@ -203,11 +243,20 @@ def calculate_financial_ratios(data):
 
 
 
+
 def generate_projections(data):
     # Use the 'Earnings' DataFrame to create projections
     earnings_df = data['earnings']
     earnings_df['Year'] = pd.to_datetime(earnings_df['Year'], format='%Y')
     earnings_df.sort_values('Year', inplace=True)
+    
+    # Drop rows with NaN in 'Earnings'
+    earnings_df.dropna(subset=['Earnings'], inplace=True)
+    
+    # Check if there's enough data to fit the model
+    if earnings_df.shape[0] < 2:
+        # Not enough data to make a projection
+        return None  # Return None or handle appropriately
     
     # Prepare data for linear regression
     earnings_df['YearOrdinal'] = earnings_df['Year'].map(pd.Timestamp.toordinal)
@@ -229,6 +278,7 @@ def generate_projections(data):
         'Projected Earnings': projected_earnings
     }
     return projections
+
 
 
 # Error handlers

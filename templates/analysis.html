@@ -20,8 +20,12 @@
         
         <!-- Projections Section -->
         <h2 class="mt-4">Financial Projections</h2>
-        <p>Projected Earnings for {{ projections['Next Year'] }}: <strong>{{ "%.2f" | format(projections['Projected Earnings']) }}</strong></p>
-        
+        {% if projections['Projected Earnings'] != 'N/A' %}
+            <p>Projected Earnings for {{ projections['Next Year'] }}: <strong>{{ "%.2f" | format(projections['Projected Earnings']) }}</strong></p>
+        {% else %}
+            <p>Projected Earnings for {{ projections['Next Year'] }}: <strong>N/A</strong></p>
+        {% endif %}
+
         <!-- Earnings Chart -->
         <canvas id="earningsChart" width="400" height="200"></canvas>
         
