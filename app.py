@@ -5,6 +5,7 @@ import numpy as np
 import os
 from sklearn.linear_model import LinearRegression
 
+
 pd.set_option('future.no_silent_downcasting', True)
 
 app = Flask(__name__)
