@@ -20,7 +20,7 @@
         
         <!-- Projections Section -->
         <h2 class="mt-4">Financial Projections</h2>
-        {% if projections['Projected Earnings'] != 'N/A' %}
+        {% if projections and projections['Projected Earnings'] != 'N/A' %}
             <p>Projected Earnings for {{ projections['Next Year'] }}: <strong>{{ "%.2f" | format(projections['Projected Earnings']) }}</strong></p>
         {% else %}
             <p>Projected Earnings for {{ projections['Next Year'] }}: <strong>N/A</strong></p>
@@ -38,7 +38,6 @@
         // Data for the Earnings Chart
         var earningsData = JSON.parse('{{ earnings_chart_data | tojson | safe }}');
 
-        
         // Config for the Chart
         var config = {
             type: 'line',
