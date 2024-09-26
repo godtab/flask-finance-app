@@ -18,14 +18,9 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Secure secret key for session management
 
 # Configure caching to use filesystem-based cache for persistence
-# Adjusted CACHE_DIR to be relative and compatible with Windows
-cache_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cache')
-if not os.path.exists(cache_directory):
-    os.makedirs(cache_directory)
-
 cache = Cache(app, config={
     'CACHE_TYPE': 'filesystem',
-    'CACHE_DIR': cache_directory,
+    'CACHE_DIR': '/tmp/my_cache_directory',
     'CACHE_DEFAULT_TIMEOUT': 3600  # Cache timeout set to 1 hour
 })
 
@@ -38,15 +33,11 @@ ALLOW_ALL_TICKERS = True
 # Fetch S&P 500 tickers from Wikipedia
 def get_sp500_tickers():
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    try:
-        tables = pd.read_html(url)
-        sp500_table = tables[0]
-        tickers = sp500_table['Symbol'].str.replace('.', '-', regex=False).tolist()
-        logging.info(f"Fetched S&P 500 Tickers: {tickers}")  # Debugging
-        return set(tickers)
-    except Exception as e:
-        logging.error(f"Error fetching S&P 500 tickers: {e}")
-        return set()
+    tables = pd.read_html(url)
+    sp500_table = tables[0]
+    tickers = sp500_table['Symbol'].str.replace('.', '-', regex=False).tolist()
+    logging.info(f"Fetched S&P 500 Tickers: {tickers}")  # Debugging
+    return set(tickers)
 
 # Initialize ALLOWED_TICKERS based on your preference
 if ALLOW_ALL_TICKERS:
@@ -529,19 +520,10 @@ def find_label_by_keywords(df, possible_labels, use_fuzzy=False, threshold=80):
         df.index = [' '.join([str(level) for level in idx]).strip() for idx in df.index]
 
     # Normalize the DataFrame's index labels for flexible matching
-    label_mapping = {}
-    for label in df.index:
-        if isinstance(label, str):
-            normalized_label = label.lower().replace(" ", "").replace("_", "")
-        else:
-            normalized_label = str(label).lower().replace(" ", "").replace("_", "")
-        label_mapping[normalized_label] = label
+    label_mapping = {label.lower().replace(" ", "").replace("_", ""): label for label in df.index}
 
     for label in possible_labels:
-        if isinstance(label, str):
-            normalized_label = label.lower().replace(" ", "").replace("_", "")
-        else:
-            normalized_label = str(label).lower().replace(" ", "").replace("_", "")
+        normalized_label = label.lower().replace(" ", "").replace("_", "")
         if normalized_label in label_mapping:
             actual_label = label_mapping[normalized_label]
             logging.info(f"Matched label '{actual_label}' for '{label}'.")
@@ -550,16 +532,14 @@ def find_label_by_keywords(df, possible_labels, use_fuzzy=False, threshold=80):
     if use_fuzzy:
         # Implement fuzzy matching as a fallback
         for keyword in possible_labels:
-            keyword_normalized = str(keyword).lower()
             for label in df.index:
-                label_normalized = str(label).lower()
-                similarity = fuzz.partial_ratio(keyword_normalized, label_normalized)
+                similarity = fuzz.partial_ratio(keyword.lower(), label.lower())
                 if similarity >= threshold:
                     logging.info(f"Fuzzy matched label '{label}' for keyword '{keyword}' with similarity {similarity}.")
                     return df.loc[label]
 
     # If no label is found, log available labels for debugging
-    logging.warning("Available labels in DataFrame: " + ", ".join(str(lbl) for lbl in df.index.tolist()))
+    logging.warning("Available labels in DataFrame: " + ", ".join(df.index.tolist()))
     return None
 
 def find_label_by_keywords_fuzzy(df, possible_labels, threshold=80):
